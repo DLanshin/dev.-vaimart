@@ -1,0 +1,28 @@
+.ins_nav {
+ 
+ 
+
+
+  margin-bottom: 20px; }
+  .ins_nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    background: #fff; }
+    .ins_nav ul li a {
+      display: block;
+      text-transform: uppercase;
+      font-size: 14px;
+      text-decoration: none;
+      /*font-weight: bold;*/
+      padding: 15px 20px;
+      color: #333333;
+      border-bottom: 2px #ddd solid; }
+      .ins_nav ul li a small {
+        display: block;
+        float: right;
+        color: #888888;
+        font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */

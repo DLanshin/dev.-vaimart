@@ -1,0 +1,19 @@
+.bx-breadcrumb {
+  background: #333333;
+  padding: 15px;
+  margin: 0px 0px 20px 0px; }
+
+.bx-breadcrumb .bx-breadcrumb-item {
+  display: inline-block;
+  padding: 7px 5px;
+  background: #555555;
+  margin-bottom: 5px;
+  border-radius: 2px; }
+  .bx-breadcrumb .bx-breadcrumb-item a {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

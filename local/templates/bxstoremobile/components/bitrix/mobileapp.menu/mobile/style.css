@@ -1,0 +1,27 @@
+body {
+  padding-bottom: 0; }
+
+.menu-wrap {
+  background: #fff;
+  padding-bottom: 100px; }
+  .menu-wrap .menu-items .menu-separator {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+
+    font-weight: bold;
+    background: #18cf4f;
+    padding: 10px 15px; }
+  .menu-wrap .menu-items .menu-section .menu-item {
+    text-transform: uppercase;
+    color: #000;
+
+    border-bottom: 1px #18cf4f solid;
+    padding: 12px 15px; }
+  .menu-wrap iframe, .menu-wrap #preview_loading {
+    height: 0;
+    width: 0;
+    display: none;
+    overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */

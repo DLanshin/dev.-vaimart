@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import "../../../../sass";
+
+.mobile_items {
+  margin: 0px 15px;
+  .blocks_item {
+    width: 48%;
+    float: left;
+    &:nth-child(even) {
+      float: right;
+    }
+    .item_over {
+      display: block;
+      text-decoration: none;
+      color: #333333;
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      border: 1px #ddd solid;
+      border-bottom: 6px $black2 solid;
+    }
+
+    a {
+      display: block;
+      .image_item {
+        width: 90%;
+        margin: 0px auto;
+        height: 150px;
+      }
+      h5 {
+        font-size: 14px;
+        font-weight: 400;
+        height: 65px;
+        margin: 10px 0px;
+      }
+    }
+
+    .price {
+      strong {
+        font-size: 15px;
+        font-weight: bold;
+        display: block;
+      }
+      input[type="submit"] {
+        @include h_gradient;
+        width: 100%;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        border:none;
+        height: 33px;
+        border-radius: 2px;
+        margin-top: 10px;
+      }
+    }
+
+  }
+}

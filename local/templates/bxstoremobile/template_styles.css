@@ -1,0 +1,312 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/***
+
+====================================================================
+			Fonts
+====================================================================
+
+***/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat';
+  /*font-family: "Montserrat", Arial, sans-serif; */}
+
+input {
+  -webkit-appearance: none; }
+
+a {
+  color: #1585C5; }
+
+.clb {
+  clear: both;
+  display: table;
+  height: 0;
+  width: 100%; }
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  background: #fff;
+  border: 1px #ddd solid;
+  border-radius: 3px;
+  margin: 20px 15px; }
+  h1 small {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    color: #777777; }
+
+h2 {
+  clear: both;
+  font-size: 13px;
+  padding: 15px;
+  margin: 15px 15px 10px 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: #333333;
+  color: #ffffff; }
+  h2 a {
+    float: right;
+    display: block;
+    text-transform: none;
+    font-weight: 400;
+    color: #ffffff;
+    background: #555555;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative;
+    top: -5px;
+    border-radius: 3px; }
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 15px 25px 15px; }
+
+.static_txt {
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px #ddd solid;
+  margin: 0px 15px 20px 15px; }
+  .static_txt:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1180db+0,1dbc1a+49,20c7e5+98 */
+    background: #1180db;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #1180db 0%, #1dbc1a 49%, #20c7e5 98%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1180db 0%, #1dbc1a 49%, #20c7e5 98%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1180db 0%, #1dbc1a 49%, #20c7e5 98%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1180db', endColorstr='#20c7e5',GradientType=1 );
+    /* IE6-9 */ }
+  .static_txt p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 0px 15px 0px; }
+  .static_txt ul {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 0px 20px 20px; }
+  .static_txt ol {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 0px 20px 20px; }
+
+.forms, .bx-authform {
+  margin-bottom: 30px;
+  border-bottom: 4px #333333 solid;
+  padding: 25px 15px 15px 15px;
+
+  text-align: center;
+  }
+  .forms input, .bx-authform input {
+    height: 45px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+
+    background: #fff;
+    border: 1px solid #9a9a9a;
+    text-align: center;
+    font-size: 15px; }
+    .forms input[type="submit"], .bx-authform input[type="submit"] {
+
+
+      color: #ffffff; }
+  .forms .tac_links, .bx-authform .tac_links {
+    text-align: center; }
+  .forms a, .bx-authform a {
+    display: inline-block;
+    background: #1585C5;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px #fff solid;
+    margin-bottom: 20px; }
+  .forms p, .forms .bx-authform-label-container, .bx-authform p, .bx-authform .bx-authform-label-container {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 23px; }
+  .forms .bx-authform-link-container, .bx-authform .bx-authform-link-container {
+    display: none;
+    width: 0;
+    height: 0;
+    overflow: hidden; }
+
+.sale-order-title {
+  font: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  background: #fff;
+  border: 1px #ddd solid;
+  border-radius: 3px;
+  margin: 20px 15px;
+  font-weight: bold; }
+
+.sale-order-list-container {
+  padding: 0px 15px;
+  margin: 0px 15px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px #ddd solid; }
+
+h2.sale-order-list-title {
+  background: none;
+  color: #333333; }
+
+.sale-order-link, .sale-order-history-link {
+  display: none; }
+
+.sale-order-list-about-container, .sale-order-list-repeat-link {
+  display: none; }
+
+h2.basket-item-info-name {
+  background: #fff;
+  color: #333333;
+  font-weight: bold; }
+  h2.basket-item-info-name a {
+    font-weight: bold;
+    background: none;
+    color: #333333; }
+
+a.button_red_big {
+  display: block;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  background: #1585C5;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  color: #ffffff; }
+
+/*# sourceMappingURL=template_styles.css.map */
+.row.product-item-list-col-1 {
+  float: left;
+  width: 32%;
+  margin: 1px;
+}
+
+.product-item-big-card {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  /*border-radius: 4px;
+  border: 1px #ddd solid;
+  border-bottom: 6px #14aa41 solid;*/
+}
+
+.product-item-button-container .btn {
+  margin-bottom: 2px;
+  background: #18cf4f;
+  color: #fff;
+}
+
+
+.btn-default {
+  margin-bottom: 2px;
+  background: #18cf4f;
+  color: #fff;
+}
+.popup-window {  font-family: 'Montserrat';}
+
+
+/*Title*/
+
+.product-item-title{
+  /* white-space: nowrap; Отменяем перенос текста */
+  overflow: hidden; /*
+  padding: 5px;
+  background: #fff;  */
+  height: 75px;
+  position: relative; /* Относительное позиционирование */
+  line-height: 16px;
+}
+.product-item-title::after {
+  content: ''; /* Выводим элемент */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: -moz-linear-gradient(bottom, rgba(255,255,255, 0.6), #fff 100%);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255, 0.6), #fff 100%);
+  background: -o-linear-gradient(bottom, rgba(255,255,255, 0.6), #fff 100%);
+  background: -ms-linear-gradient(bottom, rgba(255,255,255, 0.6), #fff 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255, 0.6), #fff 100%);
+}
+
+
+.product-item-title a {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-size: 13px;
+
+}
+
+
+
+
+/*Price*/
+.product-item-price-container { margin: 5px 0 10px; }
+
+.product-item-price-current {
+  color: #3f3f3f;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.product-item-price-old {
+  color: #a5a5a5;
+  text-decoration: line-through;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.product-item-big-card .product-item-price-current,
+.product-item-big-card .product-item-price-old {
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.product-item-big-card .product-item-price-container {float: left; }
+
+.product-item-big-card .product-item-price-current { font-size: 16px; }
+
+.product-item-big-card .product-item-price-old { font-size: 15px; }
+
+
